@@ -1,0 +1,41 @@
+/*La estructura basica para trabajar css es
+selector{
+    atributo:valor;
+}
+Selector: selecciona el elemento que va a modificar
+1.Selector por etiqueta: cambia el estilo de todas las etiquetas
+2. Selector por clase: cambia o modifica el estilo del elemento que use en su  atributo class el estilo
+3. Seletor po id: cambia o modifica el estilo del elemento que posea el id
+4. sseletor universal
+*/
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+h2{
+    color: rebeccapurple;
+    background-color: darkblue;
+    text-align: center;
+}
+
+/*
+Selector por clase:" . "
+*/
+.articulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: aqua;
+    padding: 0px 0px 10px 20px;
+}
+
+/*selectro por id #*/
+
+#segundoParrafo{
+    border-radius: 5px;
+    background-color: bisque;
+    color: rebeccapurple;
+    padding: 5px
+}
